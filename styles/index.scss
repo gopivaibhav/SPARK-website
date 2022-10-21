@@ -1,4 +1,116 @@
+$primary-color: black;
+
+@mixin verticalText {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 1.5rem;
+}
+
+
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 body{
     font-size: 3em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+.home-magazine{
+    @include flexCenter();
+    justify-content: flex-start;
+    padding: 6rem;
+    // padding-bottom: 0rem;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.heading-text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.heading-text .heading-text-1{
+    font-size: 6rem;
+    justify-items: center;
+    align-self: flex-end;
+}
+.heading-text .heading-text-2{
+    display: flex;
+    flex-direction: column;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 1.5rem;
+}
+.heading-text .heading-text-2 > div{
+    margin-left: 0.3rem;
+    width: 0.4rem;
+    height: 3.3rem; 
+    background-color: rgb(240, 159, 105);
+    align-self: flex-start;
+    border-radius: 2px;
+}
+.home-container .date{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: grey;
+}
+
+.image-container
+{
+    margin-top: 20rem;
+    @include flexCenter();
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image-container .text-container{
+    margin-right: 3rem;
+    height: 57rem;
+    @include flexCenter();
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    text-justify: inter-word; 
+
+}
+
+.image-container .text-container-1{
+    
+    @include verticalText();
+}
+
+.image-container .color-block-1{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 0.9rem;
+    width: 5.3rem;
+    background-color: rgb(240, 159, 105);
+    align-self: flex-start;
+    border-radius: 2px;
+
+}
+
+.image-container .text-container-2{
+    
+    @include verticalText();
+}
+
+.image-containing{
+    width: 100rem;
+    height: 59rem;
+    background: no-repeat url(../Mountains.jpg);
+    background-size: cover;
+    position: relative;
+    left: 6rem;
 }
