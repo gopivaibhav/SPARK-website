@@ -16,7 +16,8 @@ body {
   justify-content: center;
   align-items: center;
   justify-content: flex-start;
-  padding: 6rem;
+  padding: 3rem 10rem;
+  padding-bottom: 0rem;
   align-items: flex-start;
   width: 100%;
   height: 100%;
@@ -30,7 +31,7 @@ body {
 }
 
 .heading-text .heading-text-1 {
-  font-size: 6rem;
+  font-size: 4rem;
   justify-items: center;
   align-self: flex-end;
 }
@@ -41,7 +42,7 @@ body {
   -ms-writing-mode: tb-lr;
       writing-mode: vertical-lr;
   transform: rotate(180deg);
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .heading-text .heading-text-2 > div {
@@ -50,27 +51,27 @@ body {
   height: 3.3rem;
   background-color: rgb(240, 159, 105);
   align-self: flex-start;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 .home-container .date {
-  margin-top: 2rem;
-  font-size: 2rem;
+  margin-top: 1rem;
+  font-size: 1.3rem;
   color: grey;
 }
 
 .image-container {
-  margin-top: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
   justify-content: space-between;
   width: 100%;
 }
 
 .image-container .text-container {
   margin-right: 3rem;
-  height: 57rem;
+  height: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,37 +79,37 @@ body {
   justify-content: space-between;
   text-align: justify;
   text-justify: inter-word;
+  font-size: 1rem;
 }
 
 .image-container .text-container-1 {
   -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
   transform: rotate(180deg);
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .image-container .color-block-1 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin: 2rem 0rem;
   height: 0.9rem;
   width: 5.3rem;
   background-color: rgb(240, 159, 105);
   align-self: flex-start;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 .image-container .text-container-2 {
   -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
   transform: rotate(180deg);
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .image-containing {
   width: 100rem;
-  height: 59rem;
+  height: 42rem;
   background: no-repeat url(../Mountains.jpg);
   background-size: cover;
   position: relative;
-  left: 6rem;
+  left: 10rem;
 }/*# sourceMappingURL=index.css.map */
