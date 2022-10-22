@@ -380,3 +380,69 @@ h2 {
     width: 30px;
   }
 }
+
+@media screen and (max-width: 1250px) {
+  .container {
+    position: relative;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    transform: translateY(-50%);
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .box {
+    height: -200px;
+    margin: 0px auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .box {
+    max-width: 680px;
+    height: 10px;
+    bottom: 0px;
+    right: 120px;
+    margin: 0px auto;
+  }
+  .blog-slider {
+    top: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box {
+    /* min-height: -320px; */
+    /* margin: 50px auto; */
+    bottom: -600px;
+    top: 200px;
+  }
+
+  .blog-slider {
+    bottom: -300px;
+    top: 200px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .box {
+    right: 150px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .box {
+    bottom: -600px;
+    top: 500px;
+  }
+}
