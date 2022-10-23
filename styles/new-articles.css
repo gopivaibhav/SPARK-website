@@ -434,9 +434,20 @@ h2 {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
+  body {
+    background-color: white;
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .box {
-    right: 150px;
+    right: 140px;
+  }
+
+  header {
+    background-color: #ffffff;
   }
 }
 
