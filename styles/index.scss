@@ -8,8 +8,9 @@ $primary-color: black;
 $padding: 3rem 10rem;
 $font-size-text: 1rem;
 $font-size-heading: 4rem;
-$image-containing-height:42rem;
+$image-containing-height:40.5rem;
 $navbarcolor: rgb(56, 54, 54);
+$bg-color: #FFDEB4;
 
 @mixin verticalText {
     writing-mode: vertical-rl;
@@ -23,10 +24,15 @@ $navbarcolor: rgb(56, 54, 54);
     align-items: center;
 }
 
+@font-face {
+    font-family: "Spark";
+    src: url(../fonts/Spark-font.tiff);
+}
+
 body{
     font-size: 3em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: whitesmoke;
+    background-color: #FFDEB4;
 }
 
 // Navigation bar
@@ -120,7 +126,8 @@ body{
 .heading-text .heading-text-1{
     font-size: $font-size-heading;
     justify-items: center;
-    align-self: flex-end;
+    align-self: center;
+    font-family: Spark;
 }
 .heading-text .heading-text-2{
     display: flex;
@@ -152,7 +159,7 @@ body{
 }
 
 .image-container .text-container{
-    margin-right: 3rem;
+    // margin-right: 3rem;
     height: $image-containing-height - 2;
     @include flexCenter();
     flex-direction: column;
@@ -175,21 +182,20 @@ body{
     background-color: rgb(240, 159, 105);
     align-self: flex-start;
     border-radius: 3px;
-
+    
 }
 
-.image-container .text-container-2{
+.image-container .text-container-2s{
     
     @include verticalText();
+    
 }
 
 .image-containing{
-    width: 100rem;
+    width: 32rem;
     height: $image-containing-height;
-    background: no-repeat url(../Mountains.jpg);
+    background: no-repeat url(../Radha.webp);
     background-size: cover;
-    position: relative;
-    left: 10rem;
 }
 
 // Resposive model
@@ -223,19 +229,28 @@ body{
         width: 100%;
         flex-direction: column;
         width: 100%;
+        height:100vh;
         z-index: 1;
     }
     
     .nav-bar-list-items
     {
-        padding: 0.5rem 0rem;
+        padding-bottom: 3rem;
+        overflow-y: hidden;        
     }
 
     .nav-bar-list.active{
         display: flex;
+        justify-content: center;
+        overflow-y: hidden;
     }
 
     .image-containing{
         left: 0rem;
+    }
+
+    .image-container
+    {
+        flex-wrap: wrap;
     }
 }

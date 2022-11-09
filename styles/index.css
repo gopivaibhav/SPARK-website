@@ -5,10 +5,14 @@
   text-decoration: none;
 }
 
+@font-face {
+  font-family: "Spark";
+  src: url(../fonts/Spark-font.tiff);
+}
 body {
   font-size: 3em;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: whitesmoke;
+  background-color: #FFDEB4;
 }
 
 .nav-bar {
@@ -96,7 +100,8 @@ body {
 .heading-text .heading-text-1 {
   font-size: 4rem;
   justify-items: center;
-  align-self: flex-end;
+  align-self: center;
+  font-family: Spark;
 }
 
 .heading-text .heading-text-2 {
@@ -133,8 +138,7 @@ body {
 }
 
 .image-container .text-container {
-  margin-right: 3rem;
-  height: 40rem;
+  height: 38.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,7 +165,7 @@ body {
   border-radius: 3px;
 }
 
-.image-container .text-container-2 {
+.image-container .text-container-2s {
   -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
   transform: rotate(180deg);
@@ -169,12 +173,10 @@ body {
 }
 
 .image-containing {
-  width: 100rem;
-  height: 42rem;
-  background: no-repeat url(../Mountains.jpg);
+  width: 32rem;
+  height: 40.5rem;
+  background: no-repeat url(../Radha.webp);
   background-size: cover;
-  position: relative;
-  left: 10rem;
 }
 
 @media (max-width: 500px) {
@@ -199,15 +201,22 @@ body {
     width: 100%;
     flex-direction: column;
     width: 100%;
+    height: 100vh;
     z-index: 1;
   }
   .nav-bar-list-items {
-    padding: 0.5rem 0rem;
+    padding-bottom: 3rem;
+    overflow-y: hidden;
   }
   .nav-bar-list.active {
     display: flex;
+    justify-content: center;
+    overflow-y: hidden;
   }
   .image-containing {
     left: 0rem;
+  }
+  .image-container {
+    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=index.css.map */
