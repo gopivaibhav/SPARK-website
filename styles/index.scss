@@ -8,7 +8,7 @@ $primary-color: black;
 $padding: 3rem 10rem;
 $font-size-text: 1rem;
 $font-size-heading: 4rem;
-$image-containing-height:40.5rem;
+$image-containing-height:35.6rem;
 $navbarcolor: rgb(56, 54, 54);
 $bg-color: #FFDEB4;
 
@@ -47,12 +47,12 @@ body{
 
 .nav-bar .logo
 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: .75rem;
 }
 .nav-bar-list{
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1rem;
     list-style-type: none;
 }
 
@@ -145,7 +145,7 @@ body{
     border-radius: 3px;
 }
 .home-container .date{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     font-size: 1.3rem;
     color: grey;
 }
@@ -153,7 +153,7 @@ body{
 .image-container
 {
     @include flexCenter();
-    margin-top: 3rem;
+    margin-top: 1rem;
     justify-content: space-between;
     width: 100%;
 }
@@ -192,7 +192,7 @@ body{
 }
 
 .image-containing{
-    width: 32rem;
+    width: 30rem;
     height: $image-containing-height;
     background: no-repeat url(../Radha.webp);
     background-size: cover;
