@@ -39,12 +39,7 @@ h2 {
   justify-content: center;
 }
 
-<<<<<<< HEAD
 .container .box {
-  position: relative;
-=======
-.box {
->>>>>>> e9caf96969d28c55c52dc7e345bc17df54b06be6
   width: 300px;
   height: 300px;
   overflow: hidden;
