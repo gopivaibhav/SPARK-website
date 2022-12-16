@@ -463,3 +463,12 @@ ul li a:hover span:nth-child(4) {
   transform-origin: bottom;
   transition: transform 0.5s;
 }
+
+@media screen and (max-width: 350px) {
+  .social {
+    transform: translateY(10px);
+  }
+  .item-team-hover {
+    height: 100px;
+  }
+}
