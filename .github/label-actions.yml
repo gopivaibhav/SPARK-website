@@ -1,0 +1,18 @@
+hacktoberfest:
+  issues:
+    comment: >
+      This issue is added a label of hacktoberfesst.
+      @{issue-author}, I don't think SPARK website will be completed soon :')
+
+invalid:
+  issues:
+    comment: >
+      Since this issue is added a invalid tag, I am closing this issue as my master Vaibhav said
+    close: true
+
+
+issue/tweet:
+  issues:
+    comment: >
+      This issue is added a label of issue/tweet
+      @{issue-author}. So, I am going to tweet about this issue from [mesheryio](https://twitter.com/mesheryio) account.
