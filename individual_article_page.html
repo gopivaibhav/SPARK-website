@@ -10,6 +10,25 @@
 </head>
 
 <body>
+    <nav class="nav-bar">
+        <div class="logo">
+            Logo
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <ul class="nav-bar-list">
+            <li><a href="/" class="nav-bar-list-items">Home</a></li>
+            <li><a href="/articles_page.html" class="nav-bar-list-items">Articles</a></li>
+            <li><a href="/Crossword/crossword.html" class="nav-bar-list-items">Fun</a></li>
+            <li><a href="/news.html" class="nav-bar-list-items">News</a></li>
+            <li><a href="/new-articles.html" class="nav-bar-list-items">Editors'</a></li>
+            <li><a href="/team.html" class="nav-bar-list-items">Team</a></li>
+            <div class="cursor"></div>
+        </ul>
+    </nav>
     <main>
         <article>
             <div class="article-header">
@@ -383,6 +402,23 @@
         <!-- end -->
 
     </footer>
+    <script>
+        // nav-bar hover animation
+const cursor = document.querySelector('.cursor');
+document.addEventListener('mousemove', (e) =>{
+    cursor.style.left = e.pageX + 'px';
+    cursor.style.top = e.pageY + 'px';
+})
+
+// burger toggele button toggeling animation.
+
+const toggelButton = document.getElementsByClassName('toggle-button')[0];
+const navebarList= document.getElementsByClassName('nav-bar-list')[0]
+
+toggelButton.addEventListener('click', () => {
+    navebarList.classList.toggle('active')
+})
+    </script>
 </body>
 
 </html>
