@@ -20,7 +20,7 @@ jobs:
       - uses: mukunku/tag-exists-action@v1.2.0
         id: checkTag
         with: 
-          tag: 'issue/tweet'
+          tag: 'tweet'
       - run: echo ${{ steps.checkTag.outputs.exists }}
       # - uses: ethomson/send-tweet-action@v1
       #   with:
