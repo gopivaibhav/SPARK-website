@@ -15,4 +15,4 @@ issue/tweet:
   issues:
     comment: >
       This issue is added a label of issue/tweet
-      @{issue-author}. So, I am going to tweet about this issue from [mesheryio](https://twitter.com/mesheryio) account.
+      @{issue-author}. So, I am trying to tweet from @gopi_vaibhav's account
