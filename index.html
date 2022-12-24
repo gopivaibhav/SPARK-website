@@ -7,28 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spark</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="/nav-bar/nav-bar.css">
 </head>
 
 <body>
-    <nav class="nav-bar">
-        <div class="logo">
-            Logo
-        </div>
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <ul class="nav-bar-list">
-            <li><a href="/" class="nav-bar-list-items">Home</a></li>
-            <li><a href="/articles_page.html" class="nav-bar-list-items">Articles</a></li>
-            <li><a href="/Crossword/crossword.html" class="nav-bar-list-items">Fun</a></li>
-            <li><a href="/news.html" class="nav-bar-list-items">News</a></li>
-            <li><a href="/new-articles.html" class="nav-bar-list-items">Editors'</a></li>
-            <li><a href="/team.html" class="nav-bar-list-items">Team</a></li>
-            <div class="cursor"></div>
-        </ul>
-    </nav>
+    <header>
+        <div class="nav-wrapper">
+            <div class="logo-container">
+                Logo
+            </div>
+            <nav>
+                <input class="hidden" type="checkbox" id="menuToggle">
+                <label class="menu-btn" for="menuToggle">
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                </label>
+                <div class="nav-container">
+                    <ul class="nav-tabs">
+                        <li class="nav-tab">Home</li>
+                        <li class="nav-tab">Articles</li>
+                        <li class="nav-tab">Fun</li>
+                        <li class="nav-tab">News</li>
+                        <li class="nav-tab">Editors'</li>
+                        <li class="nav-tab">Team</li>
+                        <div class="cursor"></div>
+                    </ul>
+                </div>
+            </nav>
+            </n>
+    </header>
     <div class="home-container">
         <div class="home-magazine">
             <div class="heading-text">
@@ -67,7 +75,7 @@
         </div>
 
     </div>
-    <script src="index.js">
+    <script src="/nav-bar/nav-bar.js">
     </script>
 </body>
 
