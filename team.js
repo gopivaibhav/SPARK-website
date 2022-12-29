@@ -10,7 +10,7 @@ $(".diamond").click(function () {
     $diamondParent.toggleClass("on");
     clearTimeout(timeout);
   }, 300);
-  $diamondParent.next(".userinfo").toggleClass("on");
+  $diamondParent.next(".userinfo").toggleClass("on"); 
 });
 
 $(".close").click(function () {
