@@ -171,7 +171,7 @@ text-align: center;
 
 .close-content {
   display: block;
-  position: absolute;
+  position: fixed;
   right: 12px;
   top: 12px;
   width: 30px;
