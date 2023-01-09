@@ -472,3 +472,21 @@ h2 {
     height: 100px;
   }
 }
+
+@media screen and (min-width: 970px) and (max-width: 1140px) {
+  .social {
+    transform: translateY(10px);
+  }
+  .item-team-hover {
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 659px) and (max-width: 760px) {
+  .social {
+    transform: translateY(10px);
+  }
+  .item-team-hover {
+    height: 100px;
+  }
+}
