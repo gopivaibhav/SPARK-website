@@ -297,22 +297,22 @@ var paragraphText5 = '<p>The great centuries of kings and queens bring to mind m
                     + '<p>The fairytale account of the Spanish woman who became Indian queen. Her choice in Indian dress and accessories makes her a well-known queen. Pink lehenga with silver and gold embroidery was worn by Maharani of Kapurthala. Her diary contained such evidence. Her sarees and jewellery were luxurious. Pinks, maroons, and reds were common sari colors. Brocade embroidery and gold zari showed off her affluence. All they needed was a pallu to be Maharani-worthy. The Maharani wore elegant Victorian-style long silk dresses with off-the-shoulder patterns. Her emeralds, rubies, and diamonds were exquisite. Her jewellery, earrings, and bracelets emanated grandeur.</p><p>The Holkars derive from the Holkar dynasty, which controlled the Hindu Marathas. First as Maratha Rajas (Kings), then as Indore Maharajas (Princes). Their collection of diamonds and jewellery is world-famous. Maharaja Yashwant Rao, Richard Sivaji Rao Holkar, and his American wife, Sally, had renowned French jewelers restore the Maheshwari sarees. Holkar monarchs wore angas, turbans or pagdis, scabbards, and jewels. The Holkar queen wore jewel-encrusted Maheshwari sarees.</p>' 
                     + img7 
                     + '<p>India is a heterogeneous country, and its diversity is reflected in its traditional clothing and wearing styles, which vary widely from state to state. It has passed from one subculture to another since prehistoric times, and Harappa and Mohenjo-daro show that Indians have always had a good sense of dress. Fashion, like history, repeats itself. Designers sometimes recreate Indian culture to emphasize royal position.</p>'
-                    + '<p><b>IMAGES:</b></p>'
-                    + '<p>Maharana of Udaipur :- </p>' 
-                    + img8
-                    + '<p><br><br>Maharani of  Udaipur :-</p>'
-                    + img9 
-                    + '<p><br><br>Shinde of Gwalior :- </p>' 
-                    + img10 
-                    + img11 
-                    + '<p><br><br>Nizam of Hyderabad:- </p>' 
-                    + img12 
-                    + '<p><br><br>Mughals Badshah:- </p>' 
-                    + img13 
-                    + '<p><br><br>Mughal Begam pic1:- </p>' 
-                    + img14 
-                    + '<p><br><br>Mughal Begam pic2:- </p>' 
-                    + img15 
-                    + '<p><br><br>Holakars:-  </p>' 
-                    + img16 
+                    // + '<p><b>IMAGES:</b></p>'
+                    // + '<p>Maharana of Udaipur :- </p>' 
+                    // + img8
+                    // + '<p><br><br>Maharani of  Udaipur :-</p>'
+                    // + img9 
+                    // + '<p><br><br>Shinde of Gwalior :- </p>' 
+                    // + img10 
+                    // + img11 
+                    // + '<p><br><br>Nizam of Hyderabad:- </p>' 
+                    // + img12 
+                    // + '<p><br><br>Mughals Badshah:- </p>' 
+                    // + img13 
+                    // + '<p><br><br>Mughal Begam pic1:- </p>' 
+                    // + img14 
+                    // + '<p><br><br>Mughal Begam pic2:- </p>' 
+                    // + img15 
+                    // + '<p><br><br>Holakars:-  </p>' 
+                    // + img16 
                     + '<p align="right"><br><br>-Apoorva Kothari</p>';
