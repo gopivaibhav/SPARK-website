@@ -3,6 +3,9 @@ body {
   font-size: 18px;
   overflow-x: hidden;
   margin: 0;
+  /* background-image: url("https://www.freepik.com/free-vector/violet-orange-paper-layers-3d-abstract-gradient-papercut-colorful-origami-shape-concept_24720621.htm#query=background&position=35&from_view=keyword&track=sph"); */
+  background-image: linear-gradient(to right,rgba(4,9,30,0.7) ,rgba(4,9,30,0.7)) ,url('https://img.freepik.com/free-vector/abstract-colorful-technology-dotted-wave-background_1035-17450.jpg?w=900&t=st=1676029002~exp=1676029602~hmac=2391fd808ef63650ef4d5417cb58ecbd9eac953a2a07695d3c4b1c4e494de3f0');
+  /* background-repeat: no-repeat; */
 }
 
 p {
@@ -12,6 +15,12 @@ p {
 .container {
   max-width: 100%;
   margin: 0 auto;
+}
+
+.fullPage{
+  height: 100vh;
+  width: 100%;
+  position: relative;
 }
 
 /* Heading */
@@ -98,7 +107,11 @@ text-align: center;
 
 .card h1 {
   position: relative;
+  justify-content: center;
+  align-items: center;
   padding: 190px 0px 100px 10px;
+  top: 50%;
+  right: 10%;
   width: 90%;
 }
 
@@ -108,33 +121,40 @@ text-align: center;
   position: absolute;
   top: -6%;
   left: -6%;
+  box-shadow: 0 5px 10px 1px rgba(104, 104, 104, 0.8);
 }
 
 .card-color-0 {
-  background-color: #8DAA91;
+  /* background-color: #8DAA91; */
+  background-image: linear-gradient(to right,rgba(4,9,30,0.7) ,rgba(4,9,30,0.7)) ,url('https://img.freepik.com/free-vector/abstract-colorful-technology-dotted-wave-background_1035-17450.jpg?w=900&t=st=1676029002~exp=1676029602~hmac=2391fd808ef63650ef4d5417cb58ecbd9eac953a2a07695d3c4b1c4e494de3f0');
 }
 
 .card-color-1 {
-  background-color: #f38e77;
+  /* background-color: #f38e77; */
+  background-image: linear-gradient(to right,rgba(4,9,30,0.7) ,rgba(4,9,30,0.7)) ,url('https://img.freepik.com/free-vector/abstract-colorful-technology-dotted-wave-background_1035-17450.jpg?w=900&t=st=1676029002~exp=1676029602~hmac=2391fd808ef63650ef4d5417cb58ecbd9eac953a2a07695d3c4b1c4e494de3f0');
 }
 
 .card-color-2 {
   /* background-color: #8DAA91; */
-  background-color: #EB5160;
+  /* background-color: #EB5160; */
+  background-image: linear-gradient(to right,rgba(4,9,30,0.7) ,rgba(4,9,30,0.7)) ,url('https://img.freepik.com/free-vector/abstract-colorful-technology-dotted-wave-background_1035-17450.jpg?w=900&t=st=1676029002~exp=1676029602~hmac=2391fd808ef63650ef4d5417cb58ecbd9eac953a2a07695d3c4b1c4e494de3f0');
 }
 
 .card-color-3 {
-  background-color: #888DA7;
+  /* background-color: #888DA7; */
+  background-image: linear-gradient(to right,rgba(4,9,30,0.7) ,rgba(4,9,30,0.7)) ,url('https://img.freepik.com/free-vector/abstract-colorful-technology-dotted-wave-background_1035-17450.jpg?w=900&t=st=1676029002~exp=1676029602~hmac=2391fd808ef63650ef4d5417cb58ecbd9eac953a2a07695d3c4b1c4e494de3f0');
 }
 
 .card-color-4 {
-  background-color: #b0d28e;
+  /* background-color: #b0d28e; */
+  background-image: linear-gradient(to right,rgba(4,9,30,0.7) ,rgba(4,9,30,0.7)) ,url('https://img.freepik.com/free-vector/abstract-colorful-technology-dotted-wave-background_1035-17450.jpg?w=900&t=st=1676029002~exp=1676029602~hmac=2391fd808ef63650ef4d5417cb58ecbd9eac953a2a07695d3c4b1c4e494de3f0');
 }
 
 /* The cover (expanding background) */
 .cover {
   position: fixed;
-  background: #EB5160;
+  /* background: #EB5160; */
+  background-image: linear-gradient(to right,rgba(4,9,30,0.7) ,rgba(4,9,30,0.7)) ,url('https://img.freepik.com/free-vector/abstract-colorful-technology-dotted-wave-background_1035-17450.jpg?w=900&t=st=1676029002~exp=1676029602~hmac=2391fd808ef63650ef4d5417cb58ecbd9eac953a2a07695d3c4b1c4e494de3f0');
   z-index: 100;
   transform-origin: 50% 50%;
 }
@@ -157,12 +177,13 @@ text-align: center;
 }
 
 .open-content .text {
-  background: #fff;
+  background: #ffffff;
   margin-top: -56%;
   padding: 60% 5% 5% 5%;
   width: 80%;
   margin-left: 5%;
   margin-bottom: 5%;
+  /* box-shadow: 0 10px rgba(255, 255, 255, 0.8); */
 }
 
 .open-content .text h1, .open-content .text p {
@@ -181,7 +202,7 @@ text-align: center;
 }
 
 .close-content span {
-  background: #222;
+  background: #ffffff;
   width: 30px;
   height: 6px;
   display: block;
@@ -203,6 +224,12 @@ text-align: center;
 
 .card {
   transition: opacity 200ms linear 320ms, transform 200ms ease-out 320ms;
+}
+
+.card:hover{
+  box-shadow: 0 10px 40px rgba(255, 255, 255, 0.8);
+  /* transform: translate(-20px, -40px) rotate(-360deg)  */
+  transform: scale(1.1);
 }
 
 .border {

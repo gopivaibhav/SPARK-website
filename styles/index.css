@@ -12,8 +12,9 @@
 
 body {
   font-size: 3em;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: #FFDEB4;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #ffdeb4;
 }
 
 /* .nav-bar {
@@ -109,7 +110,7 @@ body {
   display: flex;
   flex-direction: column;
   -ms-writing-mode: tb-lr;
-      writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
   transform: rotate(180deg);
   font-size: 1rem;
 }
@@ -152,7 +153,7 @@ body {
 
 .image-container .text-container-1 {
   -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   transform: rotate(180deg);
   font-size: 1rem;
 }
@@ -168,7 +169,7 @@ body {
 
 .image-container .text-container-2s {
   -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   transform: rotate(180deg);
   font-size: 1rem;
 }
@@ -220,4 +221,4 @@ body {
   .image-container {
     flex-wrap: wrap;
   }
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */

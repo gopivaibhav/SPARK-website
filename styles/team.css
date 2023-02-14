@@ -10,22 +10,22 @@
 body {
   min-height: 400vh;
   font-family: "Rajdhani", sans-serif;
-  background-color: black;
+  background-color: #ffdeb4;
   margin: auto;
 }
 
 header {
   height: 2em;
-  background-color: #080808;
   margin: 0 0 0 0;
   padding: auto;
   font-size: 2em;
   text-align: center;
   line-height: 2em;
-  color: rgb(250, 246, 246);
+  color: black;
 }
 
 h2 {
+  bottom: -25px;
   position: relative;
   align-content: center;
   font-weight: 600;
@@ -37,6 +37,7 @@ h2 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .container .box {
@@ -44,6 +45,7 @@ h2 {
   height: 300px;
   overflow: hidden;
   transition: 0.5s;
+  position: relative;
 }
 
 .middle {
@@ -260,7 +262,7 @@ h2 {
 }
 .item-team-text {
   margin-top: 20px;
-  color: hsl(0, 0%, 100%);
+  color: black;
   display: flex;
   align-items: baseline;
   text-transform: capitalize;
@@ -285,7 +287,7 @@ h2 {
   top: 0;
   height: 100%;
   width: 100%;
-  color: hsl(36, 100%, 50%);
+  color: rgb(240, 159, 105);
 }
 
 .item-team-number span:nth-child(1):before {
@@ -302,14 +304,14 @@ h2 {
 }
 .item-team-line {
   height: 1px;
-  background-color: hsl(0, 0%, 100%);
+  background-color: black;
   flex-grow: 1;
   margin: 0 7px;
   transition: all 1s ease;
 }
 .item-team:hover .item-team-line {
   flex-grow: 0;
-  background-color: hsl(36, 100%, 50%);
+  background-color: rgb(240, 159, 105);
 }
 
 .item-team-name {
@@ -317,7 +319,7 @@ h2 {
 }
 
 .item-team:hover .item-team-name {
-  color: hsl(36, 100%, 50%);
+  color: rgb(240, 159, 105);
 }
 
 .item-team-hover {
@@ -335,7 +337,7 @@ h2 {
   transition-delay: calc(0.3s * var(--i));
 }
 .item-team-designation {
-  color: hsl(0, 0%, 100%);
+  color: black;
   text-transform: capitalize;
   font-size: 18px;
   padding-right: 15px;
@@ -345,14 +347,14 @@ h2 {
   display: inline-flex;
   margin: 0 4px;
   padding: 4px;
-  color: hsl(0, 0%, 100%);
+  color: black;
   font-size: 20px;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .item-team-social-links a:hover {
-  color: hsl(36, 100%, 50%);
+  color: rgb(240, 159, 105);
 }
 
 .social {
@@ -385,7 +387,7 @@ h2 {
   font-size: 20px;
   text-align: center;
   text-decoration: none;
-  color: #f6f1f1;
+  color: black;
   margin: 0 10px;
   transition: 0.5s;
 }
@@ -399,7 +401,7 @@ h2 {
 .social ul li a span:nth-child(3) {
   width: 100%;
   height: 1px;
-  background: orange;
+  background: black;
 }
 
 .social ul li a span:nth-child(1) {
